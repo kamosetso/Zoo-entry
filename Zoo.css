@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../Desktop/kawaii-cute-monkeys-sticker-image-style-art-meme-animated-gifs-isolated-white-background-ai-generated-283366768.webp');
+    background-size: cover;
+    background-position: 100px;
+    background-repeat: no-repeat;
+} 
+
+.form-container {
+    background-color: rgb(232, 92, 92);
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+input[type="number"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(219, 219, 225);
+    color: rgb(237, 121, 63);
+    border: none;
+    border-radius: 5px;
+}
+
+#price {
+    margin-top: 20px;
+}
